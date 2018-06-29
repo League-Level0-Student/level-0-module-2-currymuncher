@@ -12,6 +12,8 @@ public class IntroToRandom {
 		
 		//3. Now make r random. 
 		//   Create an object of the Random class
+		Random ran = new Random();
+		 r = ran.nextInt((222-88)+1);
 		//	 use .nextInt() to get a random number
 		
 
@@ -22,7 +24,7 @@ public class IntroToRandom {
 		//6. Challenge: Limit the random number between -222 and 88
 
 		//1. Print out the value of r
-		
+	System.out.println(r);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
